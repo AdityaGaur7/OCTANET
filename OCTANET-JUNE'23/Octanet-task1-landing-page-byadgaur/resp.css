@@ -1,0 +1,99 @@
+/*==========responsiveness===========*/
+
+
+@media (max-width:600px){
+    *{
+        transition: .66s ease-in-out;
+    }
+   #vbar1{
+    display: block;
+   }
+    .links{
+        display: block;
+        position: relative;
+        z-index: 32;
+        top: 40vh;
+        left: 50vw;
+        display: none;
+        background-color: #ebe1e1;
+    }
+    .box{
+        margin-left: 20vw;
+    }
+    .box h2{
+        font-size: 40px;
+        top: 28vh;
+        left: 19vw;
+    }
+    .cards{
+        display: grid;
+        margin-left:10vw;
+      
+       
+    }
+    .row1,.row2{
+        width: 100%;
+        height: 200vh;
+        display: block;
+    }
+  .row3{
+    display: block;
+    margin-top: -70vh;
+  }
+   
+    
+.totka,.data{
+    width: 90%;
+}
+.x{
+    width: 75vw;
+    margin-left: 14vw;
+}
+
+.shop{
+    margin-top: 250vh;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.item{
+    margin-left: 7vw;
+}
+.lol h2,.lol p,.total{
+    margin-left: 15vw;
+}
+.lol button{
+    padding: 0px 10px;
+    margin-left: 15vw;
+    position: relative;
+    z-index: 20;
+}
+.brands{
+    margin-top: 90vh;
+    margin-left: 10vw;
+}
+footer{
+   
+}
+.foot{
+    width: 100%;
+  
+   margin-right:-20vw;
+
+}
+.base h2{
+    font-size: 15px;
+    margin-left: 5vw;
+}
+.base li{
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 19px;
+    margin-left: 5vw;
+}
+.cpyright{
+    width: 120%;
+}
+}

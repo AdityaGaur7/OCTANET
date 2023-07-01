@@ -1,0 +1,522 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-repeat: no-repeat;
+
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    height:12vh;
+    width: 100%;
+    /* background-color: rgb(227, 172, 100); */
+    position: fixed;
+    top: 0;
+    top: 0;
+    z-index: 30;
+}
+.free{
+    width: 100%;
+    height: 4vh;
+    background-color: rgb(25, 94, 213);
+    text-align: center;
+    color: azure;
+   
+}
+.free h3{
+    animation: free 10s linear infinite 1s;
+}
+@keyframes free {
+    0%{
+        transform: translateX(15vw);
+    }
+    50%{
+
+        transform: translateX(-15vw);
+    }
+    100%{
+        transform: translateX(15vw);
+    }
+    
+}
+span{
+    position: relative;
+    z-index: 20;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+.bar{
+    /* background-color: aquamarine; */
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(235, 225, 225);
+}
+.bar li{
+    margin: 1rem;
+}
+.bar a{
+                font-size: 17px;
+
+}
+.animals{
+    position: relative;
+    z-index: 11;
+    top: 31vh;
+    left: -27vw;
+    display: none;
+}
+
+.bar a:hover{
+    color: red;
+    text-decoration: underline;
+
+}.bar a:hover>span{
+    font-size: 25px;
+    transition: .45s ease;
+}
+.logo img{
+width:auto;
+height: 15vh;
+position: relative;
+z-index: 2;
+animation: logo 2s linear infinite 1s;
+}
+@keyframes logo { 
+    0%{
+        transform: translateX(2vw);
+    }50%{
+        transform: translateX(-2vw);
+   
+    }100%{
+        transform: translateX(2vw);
+  
+    }
+}
+.carousal{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(179, 255, 116); */
+    display: grid;
+    position: center;
+}
+.box{
+ width: auto;
+ height: 95vh;
+ background: url('img/c1.jpg');
+ background-repeat: no-repeat;
+ background-size: contain;
+ background-position: center;
+ 
+}
+.box h2{
+    
+    /* color: white; */
+    position: relative;
+    top: 50%;
+    width: 20vw;
+    left: 40%;
+    color: white;
+    font-size: 40px;
+text-shadow: 5px 6px 3px  black;
+}
+
+.cards{
+    width: 100%;
+    height: 220vh;
+    display: block;
+    /* background-color: rgb(116, 113, 108); */
+}
+    .row1,.row2,.row3{
+        width: 100%;
+        height: 75vh;
+        /* margin: 3rem; */
+
+    }
+    
+    .row1{
+        /* background-color: rgb(120, 139, 52); */
+        display: flex;
+        justify-content:space-evenly;
+
+    }
+    .card1{
+        /* background-color: aqua; */
+        width: 20vw;
+        height: 55vh;
+        margin: 1rem;
+        margin-top: 10vh;
+        background: url('img/2.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+      
+    }
+    .card2{
+        /* background-color: rgb(242, 255, 0); */
+        width: 35vw;
+        height: 55vh;
+        margin: 1rem;
+        margin-top: 10vh;
+        background: url('img/1.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .card3{
+        /* background-color: aqua; */
+        width: 15vw;
+        height: 55vh;
+        margin: 1rem;
+        margin-top: 10vh;
+        background: url('img/3.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .row2{
+        /* background-color: rgb(52, 139, 127); */
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card4{
+        /* background-color: aqua; */
+        width: 27vw;
+        height: 55vh;
+        margin: 1rem;
+        margin-top: 10vh;
+        background: url('img/4.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+    .card5{
+        /* background-color: aqua; */
+        width: 50vw;
+        height: 55vh;
+        margin: 1rem;
+        margin-top: 10vh;
+        background: url('img/5.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+     
+
+    .row3{
+        /* background-color: rgb(52, 56, 139); */
+        display: flex;
+        justify-content: space-around;
+    }
+    .card6{
+        /* background-color: aqua; */
+        width: 50vw;
+        height: 55vh;
+        margin: 1rem;
+        margin-top: 10vh;
+        background: url('img/6.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+    .card7{
+        /* background-color: aqua; */
+        width: 20vw;
+        height: 55vh;
+        margin: 1rem;
+        margin-top: 10vh;
+        background: url('img/7.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+    .card8{
+        /* background-color: aqua; */
+        width: 30vw;
+        height: 40vh;
+        margin: 1rem;
+        margin-top: 10vh;
+        background: url('img/6.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+
+    }
+    .text{
+        width: 40vw;
+        position: relative;
+        top: 25vh;
+        left: 5vw;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(250, 251, 253);
+        text-shadow: 2px 3px 2px black;
+        font-size: 20px;
+        
+    }
+    .text:hover{
+        color: black;
+        text-shadow: 3px 5px 7px white;
+        font-size: 25px;
+        transition: .55s ease;
+    }
+    .text button{
+        padding: 1vh;
+        background-color: rgb(255, 34, 5);
+        color: white;
+        margin-top: 1vh;
+    }
+    .text button:hover{
+        background-color: rgb(222, 255, 33);
+        color: rgb(0, 0, 0);
+        border-radius: 10px;
+        transform: scale(1.2);
+
+    }
+    .shop{
+        margin-top:10vh;
+        width: 100%;
+        height: 70vh;
+        /* background-color: rgb(32, 23, 138); */
+    }
+    .items{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    .prod{
+        text-align: center;
+        margin:3rem;
+    }
+    .prod h1{
+        color: rgb(13, 207, 136);
+    }
+    .item{
+        width:15vw;
+        height: 45vh;
+        text-align: center;
+        /* background-color: aquamarine; */
+        /* background-color:#f6f6f6; */
+        
+    }
+    .lol{
+        position: relative;
+        z-index: 1;
+        /* top: 2vh; */
+    }
+    .lol img{
+        width: auto;
+        height: 25vh;
+    }
+    .lol img:hover{
+        border-radius: 50px;
+        
+    }
+    .total{
+        display: flex;
+        justify-content: center;
+        padding: .3rem;
+    }
+    .total button{
+        padding: 1px 6px;
+    }
+    .brands{
+        width: 100%;
+        height: 50vh;
+       /* background-color: aqua; */
+    }
+
+    .best h1{
+        text-align: center;
+        color: tomato;
+        font-size: 40px;
+    }
+    .best{height: 50vh;
+        width: 100%;
+        background: url('img/brand.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    footer{
+        width: 100%;
+        height: 40vh;
+        /* background-color: rgb(134, 148, 147); */
+        display: flex;
+        justify-content: center;
+    }
+    .foot{
+        display: flex;
+        justify-content: space-evenly;
+        
+        background-color: rgb(254, 112, 87);
+        width: 80%;
+        height: 40vh;
+    }
+    .foot li:hover{
+        cursor: pointer;
+    }
+    .base h2{
+        margin: 2vh 0vw;
+    }
+.base
+{
+    line-height: 4vh;
+
+}
+.cpyright{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(69, 70, 70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cpyright h2{
+text-align: center;
+color: antiquewhite;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+
+/*===============kart.html===========*/
+
+.kart
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 22;
+    display: none;
+}
+#kart2{
+    display: none;
+}
+
+.cart button{
+    background-color: rgb(235, 225, 225);
+    border: 0;
+    outline: 0;
+    padding: 3px;
+}
+.cart button:hover{
+    text-decoration: underline;
+    
+}
+.totka{
+    margin-top: 20vh;
+    width: 40vw;
+    height: 50vh;
+    border-radius: 10px;
+        background: linear-gradient(120deg,rgba(70, 255, 255),rgba(55, 0, 255, 0.837),rgba(214, 91, 255));
+    /* border-radius: 50%; */
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: end;
+}
+.totka button{
+    color: red;
+    background-color: azure;
+    border: 0;
+    padding: 1px 20px;
+    margin: 2vh;
+}
+.totka button:hover{
+    transform: scale(1.1);
+}
+.totka h3{
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 400;
+    color: rgb(243, 233, 233);
+    text-shadow: 2px 3px 2px rgb(16, 12, 12);
+}
+.totka h1{
+    font-family: initial;
+    color: rgb(213, 213, 213);
+    text-shadow: 3px 5px 3px black;
+}
+/*==========login.html==========*/
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.data{
+    margin-top: 20vh;
+    width: 50vw;
+    height: 60vh;
+    background: linear-gradient(200deg,rgb(240, 240, 234),rgb(63, 59, 59),rgb(184, 184, 182));
+    border-radius:10px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: end;
+
+}
+.data form input{
+    padding: 5px 10px;
+    margin-top: 1vh;
+    font-family: 'Times New Roman', Times, serif;
+    border: 0;
+    border-radius: 10px;
+}
+.data form input:hover{
+    box-shadow: 3px 4px 2px black;
+
+}
+#vbar1{
+    display: none;
+}
+#vbar2{
+    display: none;
+    position: absolute;
+    z-index: 30;
+    right: 10vw;
+}
+.handle img{
+    width: auto;
+    height: 20px;
+}
+.handle img:hover{
+    transform: scale(1.5);
+}
+form h2{
+    color:aliceblue;
+    text-shadow: 4px 5px 3px black;
+
+}
+.totka h2{
+    text-shadow: 3px 5px 2px white;
+    color: rgb(0, 0, 0);
+}

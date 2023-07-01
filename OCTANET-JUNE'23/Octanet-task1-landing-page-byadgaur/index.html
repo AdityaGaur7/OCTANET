@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Love❣️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resp.css">
+    <script src="script.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body onload="f1()">
+    <header>
+        <div class="navbar">
+            <div class="nav">
+                <div class="free">
+                    <h3>FREE SHIPPING - ORDER TODAY</h3>
+                </div>
+                <div class="bar ">
+                    <div class="logo"><img src="img/logo.png" alt=""></div>
+                    <div class="links center" id="vnav">
+                        <li><a href="index.html">Home<span>🏠</span></a></li>
+
+                        <li><a href="#">Dogs<span>🐕</span></a></li>
+                        <li><a href="#">Cats<span>🐈</span></a></li>
+                        <li><a href="#">Birds<span>🐦</span></a></li>
+                        <li><a href="#">Fishes<span>🐟</span></a></li>
+                        <li><a href="#">Small Animals<span>🐁</span></a></li>
+                        <li><a href="#">Reptiles<span>🦎</span></a></li>
+                        <li><a href="#">Contact<span>📞</span></a></li>
+                    </div>
+                    <div class="cart center">
+                        <li><a href="login.html">login🙍‍♂️</a></li>
+                        <li><button id="kart1" onclick="kart1()">kart🛒</button></li>
+                        <li><button id="kart2" onclick="kart2()">Close-Cart❌</button></li>
+                        <li><button id="vbar1" onclick="vbar1()">🍔</button></li>
+                        <li><button id="vbar2" onclick="vbar2()">🍔</button></li>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="kart">
+            <div class="totka">
+                <h1>PAY HERE !!</h1>
+                <h2>TOTAL AMOUNT</h2>
+                <h3 id="sum">Rs 00</h3>
+                <button id="pay" onclick="confirm('Amount will be deducted from your Account , Click YES to confirm!!');alert('Your account has been emptied 😈')">PAY</button>
+            </div>
+        </div>
+        <div class="carousal">
+            <div class="box">
+                <h2>Welcome<br> to our<br> pet supply shop</h2>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="row1">
+                <div class="card1 x" 
+                
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="1000">
+                    <div class="text">
+                        <h2>Deal<br> of the<br> week</h2>
+                        <p>50% off</p>
+                        <button>Shop now</button>
+                    </div>
+                </div>
+                <div class="card2 x"
+                 data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="text">
+                        <h2>DOGS</h2>
+                        <p>True friends</p>
+                        <button>Shop now</button>
+
+                    </div>
+                </div>
+                <div class="card3 x"
+                data-aos="zoom-out"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                    <div class="text">
+                        <h2>CATS</h2>
+                        <p>Pussy cat</p>
+                        <button>Shop now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="card4 x"
+                data-aos="zoom-out"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
+                    <div class="text">
+                        <h2>BIRDS</h2>
+                        <p>Free Wings</p>
+                        <button>Shop now</button>
+
+                    </div>
+                </div>
+                <div class="card5 x"
+                data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="text">
+                        <h2>FISHES</h2>
+                        <p>Crystal Clear Water</p>
+                        <button>Shop now</button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row3">
+                <div class="card6 x"
+                data-aos="zoom-in"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="text">
+                        <h2>SMALL ANIMLAS</h2>
+                        <p>Small lives</p>
+                        <button>Shop now</button>
+
+                    </div>
+                </div>
+                <div class="card7 x"
+                data-aos="zoom-out"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="text">
+                        <h2>REPTILES</h2>
+                        <p>Crawlers but cute</p>
+                        <button>Shop now</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shop">
+            <div class="prod">
+                <h1>Products</h1>
+            </div>
+            <div class="items">
+                <div class="item 1"  data-aos="flip-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="lol">
+                        <img src="img/i1.webp" alt="">
+                        <h2>bowl</h2>
+                        <p>Rs 199</p>
+                        <div class="total">
+                            <button onclick="neg1()">-</button>
+                            <h4 id="no1">00</h4><button onclick="pos1()">+</button>
+                        </div>
+                        <button onclick="a1()">add to cart</button>
+                    </div>
+                </div>
+                <div class="item 2" data-aos="flip-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="lol">
+                        <img src="img/i2.webp" alt="">
+                        <h2>Toy1</h2>
+                        <p>Rs 149</p>
+                        <div class="total">
+                            <button onclick="neg2()">-</button>
+                            <h4 id="no2">00</h4><button onclick="pos2()">+</button>
+                        </div>
+                        <button onclick="a1()">add to cart</button>
+                    </div>
+                </div>
+                <div class="item 3"data-aos="flip-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="lol">
+                        <img src="img/i3.webp" alt="">
+                        <h2>bone</h2>
+                        <p>Rs 199</p>
+                        <div class="total">
+                            <button onclick="neg3()">-</button>
+                            <h4 id="no3">00</h4><button onclick="pos3()">+</button>
+                        </div>
+                        <button onclick="a1()">add to cart</button>
+                    </div>
+                </div>
+                <div class="item 4"data-aos="flip-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="lol">
+                        <img src="img/i4.webp" alt="">
+                        <h2>toy2</h2>
+                        <p>rs 199</p>
+                        <div class="total">
+                            <button onclick="neg4()">-</button>
+                            <h4 id="no4">00</h4><button onclick="pos4()">+</button>
+                        </div>
+                        <button onclick="a1()">add to cart</button>
+                    </div>
+                </div>
+                <div class="item 5"data-aos="flip-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="lol">
+                        <img src="img/i5.webp" alt="">
+                        <h2>toy3</h2>
+                        <p>rs 299</p>
+                        <div class="total">
+                            <button onclick="neg5()">-</button>
+                            <h4 id="no5">00</h4>
+                            <button onclick="pos5()">+</button>
+                        </div>
+                        <button onclick="a1()">add to cart</button>
+                    </div>
+                </div>
+                <div class="item 5"data-aos="flip-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
+                    <div class="lol">
+                        <img src="img/toy.jpeg" alt="">
+                        <h2>toy4</h2>
+                        <p>rs 199</p>
+                        <div class="total">
+                            <button onclick="neg6()">-</button>
+                            <h4 id="no6">00</h4>
+                            <button onclick="pos6()">+</button>
+                        </div>
+                        <button onclick="a1()">add to cart</button>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="brands">
+            <div class="brand">
+                <div class="best">
+                    <h1>
+                        best brand at lowest price
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="foot">
+            <div class="base">
+                <h2>Our Store</h2>
+                <p>ABC colony <br>near Golbazar,12/A<br>
+                    Gorakhpur,273010<br>Uttar Pradesh</p>
+            </div>
+            <div class="base">
+                <h2>Shop</h2>
+                <li>Dogs</li>
+                <li>Cats</li>
+                <li>Birds</li>
+                <li>fishes</li>
+                <li>Small Animals</li>
+                <li>Reptiles</li>
+            </div>
+            <div class="base">
+                <h2>Info</h2>
+                <li>Our Story</li>
+                <li>Contact</li>
+                <li>Shipping & Returns</li>
+                <li>Store Policy</li>
+                <li>FAQ</li>
+            </div>
+            <div class="base">
+                <h2>Get Special Deals & Offers</h2>
+                <li>Email Address</li>
+                <h3>Become our bestie</h3>
+                <div class="handle">
+                    <img src="handle/fb.png" alt="fb">
+                    <img src="handle/insta.png" alt="insta">
+                    <img src="handle/linkedin.png" alt="linkedin">
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <div class="cpyright">
+        <h2>copyright @2023 Adgaur.com</h2>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

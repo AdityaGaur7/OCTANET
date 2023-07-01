@@ -1,0 +1,69 @@
+@media (max-width:680px) {
+    .container{
+        width:212%;
+    }
+    .nav{
+        width:212%;
+
+    }
+    .bxa{
+        display: flex;
+        flex-direction: column-reverse;
+        width:212%;
+
+       
+    }
+    #bxa{
+        display: flex;
+        flex-direction: column;
+    }
+    .right{
+        display: block;
+    }
+    .bxa img,video{
+        margin-left: -10rem;
+    }
+    .video-2{
+        height: 20vh;
+        position: relative;
+        left: 20vw;
+        height: 38vw;
+        top: -85%;
+    }
+.faqs{
+    width:212%;
+}
+.faqs button{
+   
+    width: 52%;
+    height: auto;
+    margin-left: 26%;
+}
+.faq {
+    width: 100%;
+}
+section {
+    height: auto;
+    width: 52%;
+    display: flex;
+  position: relative;
+  left: 25%;
+}
+.mail{
+    width:212%;
+}
+.footer,.foot{
+    width:212%;
+}
+hr{
+    width: 212%;
+}
+}
+@media (max-width:380px) {
+    .bxa{
+        height: 110vh;
+    }
+    .foot{
+        height: 80vh;
+    }
+}
